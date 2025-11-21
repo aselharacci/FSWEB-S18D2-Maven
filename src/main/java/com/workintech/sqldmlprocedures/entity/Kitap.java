@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 public class Kitap {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long kitapno;
+    private Long kitapno;
     private String ad;
     private int puan;
     private long yazarno;
